@@ -8,37 +8,50 @@
     <title>Chocolate Pizza lab</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Hurricane&family=Montserrat:wght@100&family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Barlow+Condensed&family=Hurricane&family=Montserrat:wght@100&family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <!--Header-->
     <header>
-        <section>
-            <img src="#" alt="Fork and knife">
+        <img src="lab-assets/logo.png" alt="Fork and knife">
+        <section class="section" id="firstsection">
             <h1>Delicious</h1>
-            <h2>THE BEST FOOD BLOG ON THE WEB</h2>
+            <h2>THE BEST FOOD BLOG ON THE WEB.</h2>
         </section>
-        <section>
-            <img src="#" alt="icons">
+        <section class="section" id="secondsection">
+            <img src="lab-assets/fb-icon.png" alt="Facebook">
+            <img src="lab-assets/twit-icon.png" alt="Twitter">
+            <img src="lab-assets/gp-icon.png" alt="Google Plus">
+            <img src="lab-assets/insta-icon.png" alt="Instagram">
+            <img src="lab-assets/flic-icon.png" alt="Flicker">
+            <img src="lab-assets/pint-icon.png" alt="Pinterest">
+            <img src="lab-assets/rss-icon.png" alt="RSS Feed">
+            <img src="lab-assets/mail-icon.png" alt="E-mail">
         </section>
     </header>
 <!--Horizontal rule img on repeat-->
-    <img src="#" alt="Horizontal rule">
+    <div class="hr"></div>
 
 <!--Main content-->
     <main>
-        <section>
-            <h1>Chocolate Pizza</h1>
-            <h2>POSTED ON 15 DEC 2013 / DESSERTS</h2>
-            <img src="#" alt="Printer icon">
-            <p>PRINT</p>
-        </section>
+        <h1 id="flavor">Chocolate Pizza</h1>
+        <h2 id="date">POSTED ON 15 DEC 2013 / DESSERTS</h2>
+        <section id="mainsec">
+            <img src="lab-assets/print-icon.png" alt="Printer icon">
+                <p>PRINT</p>
+            </section>
         <!--Large Image-->
-        <img src="" alt="">
+        <img id="heroimg" src="lab-assets/choco-pizza.png" alt="">
 
 <!--Paragraphs-->
-        <section>
+        <section id="lorem">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam repudiandae nihil corporis voluptatem,
                 neque vero magnam cupiditate tempore aspernatur libero assumenda asperiores tenetur fuga voluptate
                 exercitationem laboriosam veritatis quidem odio!
@@ -47,7 +60,7 @@
                 accusantium.
                 Accusantium pariatur rem, minima quis porro nisi impedit perferendis. Magni unde, modi iusto neque eaque
                 possimus autem deleniti exercitationem laudantium nostrum? Ab, dolorum? Sit cupiditate culpa neque
-                deleniti consectetur inventore!</p>
+                deleniti consectetur inventore!</p><br><br>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam repudiandae nihil corporis voluptatem,
                 neque vero magnam cupiditate tempore aspernatur libero assumenda asperiores tenetur fuga voluptate
                 exercitationem laboriosam veritatis quidem odio!
@@ -56,7 +69,7 @@
                 accusantium.
                 Accusantium pariatur rem, minima quis porro nisi impedit perferendis. Magni unde, modi iusto neque eaque
                 possimus autem deleniti exercitationem laudantium nostrum? Ab, dolorum? Sit cupiditate culpa neque
-                deleniti consectetur inventore!</p>
+                deleniti consectetur inventore!</p><br><br>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam repudiandae nihil corporis voluptatem,
                 neque vero magnam cupiditate tempore aspernatur libero assumenda asperiores tenetur fuga voluptate
                 exercitationem laboriosam veritatis quidem odio!
@@ -68,50 +81,53 @@
                 deleniti consectetur inventore!</p>
         </section>
 <!--Checkboxes-->
-        <section>
-            <form>
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
+        <section id="section">
+            <form id="firstcheck">
+                <label for="checks"><input type="checkbox">1 1/2 cups milk</label>
 
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
-                <label for="checks"></label>
-                <input type="checkbox">
+                <label for="checks"><br><input type="checkbox">1/2 cup mascarpone</label>
+
+                <label for="checks"><br><input type="checkbox">1/2 tsp pink salt</label>
+
+                <label for="checks"><br><input type="checkbox">1 lb Black Mission Figs</label>
+
+
+                <label for="checks"><br><input type="checkbox">1/2 cup brown suger</label>
+
+                <label for="checks"><br><input type="checkbox">2-4 tbsp water</label>
+                
+            </form>
+            <form id="secondcheck">
+                <label for="checks"><input type="checkbox">1 1/2 heavy cream</label>
+                
+                <label for="checks"><br><input type="checkbox" checked="checked">1/3 granulated sugar</label>
+                
+                <label for="checks"><br><input type="checkbox"checked="checked"> 2 egg yolks</label>
+                
+                <label for="checks"><br><input type="checkbox">1 lemon, juiced</label>
+                
+                <label for="checks"><br><input type="checkbox">2 tbsp butter</label>
+                
+                <label for="checks"><br><input type="checkbox">
+                    1 cup honey roasted pecans, roughly chopped</label>
+                
             </form>
         </section>
 <!--Horizontal rule image on repeat-->
-    <img src="#" alt="Horizontal rule">
-
-<!--Author section-->
-        <section>
-            <img src="#" alt="Authors face">
+    <img class="hr" src="lab-assets/hr-img.png" alt="Horizontal rule">
+    <section id="face">
+    <img src="lab-assets/van-pic.png" alt="Authors face">
+    <!--Author section-->
+        <section id="author">
             <h2>Vanessa Stevenson</h2>
-            <p>Info about Author</p>
+            <p>Likes long walks on the beach. Author of 11 New York Best Time sellers. </p>
         </section>
-        <button>SHARE RECIPE</button>
+        <input id="button" type="submit" value="SHARE RECIPE"></input>
     </main>
-
+</section>
 <!--Horizontal rule with image centered and footer info-->  
     <footer>
-        <img src="#" alt="Fork and knife">
+        <img src="lab-assets/small-logo.png" alt="Fork and knife">
         <p></p>
         <p></p>
     </footer>
