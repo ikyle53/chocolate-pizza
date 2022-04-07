@@ -136,7 +136,12 @@ label, input{
   gap: 10px;
   font-family:'Playfair Display', serif;
   font-size: 1.3em;
+  margin-left: 50px;
   }
+
+#author > h2 {
+  font-weight: bold;
+}
 
 #face {
   display: flex;
@@ -151,6 +156,25 @@ label, input{
   
 }
 
-footer{
-  
+footer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hrBot {
+  display: inline;
+  width: 100%;
+  margin: 15px;
+  border-top: 1px solid rgb(100, 100, 100, 0.3);
+}
+
+#underFoot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  color: rgb(100, 100, 100, 0.8);
 }
